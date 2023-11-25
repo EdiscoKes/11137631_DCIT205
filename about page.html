@@ -14,18 +14,59 @@
 }
 
 header {
-  background-color: blue;
+  background-color: rgb(3, 3, 63);
   color: #fff;
-  text-align: center;
   padding: 1em 0;
-  background-image: url()
-      background-size: cover;
+  background-image: url('https://dcs.ug.edu.gh/img/gallery/PHOTO-2019-03-04-14-45-13%202.jpg');
+   background-size: cover;
       background-position: center;
-      height: 300px; /* Adjust the height of the header as needed */
-      display: flex;
-
+      height : 300px; /* Adjust the height of the header as needed */
+    display: flex;
+    text-align: justify;
+    
+    
+   
   
 }
+
+@keyframes colorChange {
+            0% {
+                color:white;
+            }
+            25% {
+                color: rgb(28, 28, 209);
+            }
+            50% {
+                color: rgb(61, 233, 61);
+            }
+            75% {
+                color: rgb(228, 23, 228);
+            }
+            100% {
+                color: orange;
+            }
+        }
+
+        .changing-text {
+            display: inline-block;
+            font-size: 24px;
+            animation: colorChange 15s infinite; /* Adjust the duration as needed */
+        } 
+
+
+
+
+
+nav {
+            margin-bottom: 20px;
+        }
+
+        nav a {
+            margin-right: 15px;
+            color: #007BFF;
+            text-decoration: none;
+        }
+
 
 section {
   max-width: 800px;
@@ -34,12 +75,12 @@ section {
 }
 
 h2 {
-  color: #333;
+  color:rgb(4, 4, 65);
 }
 
 footer {
-  background-color: #333;
-  color: #fff;
+  background-color:blue;
+  color: rgb(4, 4, 65);
   text-align: center;
   padding: 1em 0;
 }
@@ -47,8 +88,9 @@ footer {
 
 /* the navigation bar style  */
 
-nav {
-            background-color:rgb(255, 255, 255);
+
+        nav {
+            background-color:rgb(235, 206, 154);
             overflow: hidden;
             margin-left: 500px;
             width: 30%; 
@@ -61,7 +103,7 @@ nav {
         nav a {
             float:right;
             display: inline-block;
-            color: black;
+            color: blue;
             text-align: left;
             padding: 14px 16px;
             text-decoration: none;
@@ -74,12 +116,12 @@ nav {
             height: auto;}
 
         nav a:hover {
-            background-color: #ddd;
+            background-color: #f3d3d3;
                 color: black;}
            
 
         nav {
-            background-color:white;
+            background-color:rgb(235, 206, 154);
             overflow: hidden;
             width: 50%;
         }
@@ -87,29 +129,39 @@ nav {
         nav a {
             float: left;
             display: block;
-            color: black;
+            color: rgb(7, 7, 56);
             text-align: center;
             padding: 14px 16px;
             text-decoration: none;
         }
 
         nav a:hover {
-            background-color: blue;
+            
             color: black;
+            text-decoration: underline;
         }.complogo{
+            margin-top: -600px;
+        height: 60px;
+        width: 440px;
+        margin-left:-10px ;
+        top:50px ;
+         border-radius: 40px; 
+         background-color: rgb(235, 206, 154);;
+
         
-        margin-top: -1000px;
-        height: 100px;
+       
     }
     .dropdown-btn {
-            background-color:white;
-            color: white;
+            background-color:rgb(235, 206, 154);
+            color: rgb(235, 206, 154);
             padding: 10px 15px;
             border: none;
             cursor: pointer;
-            margin-top: -80px;
-            margin-left: 900px;
+            margin-top: -92px;
+            margin-left: 1200px;
             position: absolute;
+            height: 5px;
+            
             
         }
 
@@ -126,8 +178,8 @@ nav {
             background-color:white;
             min-width: 160px;
             z-index: 1;
-            margin-left: 900px;
             margin-top: -30px;
+            margin-left: 1200px;
         }
 
         /* Style for the dropdown links */
@@ -142,7 +194,7 @@ nav {
 
         /* Change color on hover for the dropdown links */
         .dropdown-content a:hover {
-            background-color: #ddd;
+            background-color:none;
             color: black;
         }
 
@@ -152,57 +204,101 @@ nav {
         } 
   
 
+        .grouped-content {
+            display: flex;
+            align-items: center; /* Align items vertically */
+        }
+
+        .grouped-content img {
+            margin-right: 10px; 
+        }
+   
+            .faculty {
+                display: flex;
+                align-items:center;
+            }
+            .faculty img {
+                margin-right:10px ;
+            }
+
+  
+
     </style>
 </head>
 <body>
 
-    <nav>
-        <a href="file:///C:/Users/USER/Desktop/205%20project%20work/205.html">
-            <img src="https://png.pngtree.com/png-clipart/20210521/ourmid/pngtree-home-button-ui-ux-png-image_3308787.jpg" alt="Home">
-        </a>
-        <a href="#contact">Contact</a>
-        <a href="file:///C:/Users/USER/Desktop/205%20project%20work/About%20page.html">About</a>
-        <a href="Event">Events</a>
-        <a href="#catalog">Catalog</a>
-    </nav>
-    <img class="complogo"   src="images web/download.png" style="width:350px" >
+    <div style="background-color: rgb(235, 206, 154); margin-top: -80px; height:50px;  justify-content: cnter; ">
+   
 
+        <nav>
+            <a href="file:///C:/Users/USER/Desktop/205%20project%20work/205.html#catalog">
+                <img src="images web/homelogo.jpeg" alt="Home" style="width: 40px; border-radius: 40px;">
+            </a>
+            <a href="file:///C:/Users/USER/Desktop/205%20project%20work/contact%20pagee.html">Contact</a>
+            <a href="file:///C:/Users/USER/Desktop/205%20project%20work/About%20page.html">About</a>
+            <a href="file:///C:/Users/USER/Desktop/CS%20project/academic%20page.html">Academics</a>
+            <a href="file:///C:/Users/USER/Desktop/205%20project%20work/catalog%20page.html">Catalog</a>
+        </nav>
+    
+       
+       
+    
     <div class="dropdown" id="dropdownButton">
-      <button class="dropdown-btn" onclick="toggleDropdown()"><img  style="width: 30px;"   src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQICSn8jYtAm-pIJ8cVweJlWYB-rtVhCFSf47mzdYh4OY1HfaYQrEKs6hSTHu2pTXsa1kQ&usqp=CAU"></button>
-      <div class="dropdown-content">
-          <a href="#resources">Resources</a>
-          <a href="academics">academic</a>
-          <a href="#staff-profiles">Staff Profiles</a>
-          <a href="#admissions">Admissions</a>
-          <a href="#research">Research</a>
-      </div>
-  </div>
-
-  <!-- Your website content goes here -->
-
-  <script>
-      function toggleDropdown() {
-          var dropdown = document.getElementById("dropdownButton");
-          dropdown.classList.toggle("active");
-      } 
-      </script>
+            <button class="dropdown-btn" onclick="toggleDropdown()"><img  style="width: 50px; height: 25; background-color: rgb(235, 206, 154); border-radius: 50px;"   src="images web/dropdown button.png"></button>
+            <div class="dropdown-content">
+                <a href="file:///C:/Users/USER/Desktop/205%20project%20work/Resouces%20page.html">Resources</a>
+                <a href="#academics">Academics</a>
+                <a href="#staff-profiles">Staff Profiles</a>
+                <a href="#admissions">Admissions</a>
+                <a href="#research">Research</a>
+    
+            </div>
+        </div>
+    
+       
+    
+        <script>
+            function toggleDropdown() {
+                var dropdown = document.getElementById("dropdownButton");
+                dropdown.classList.toggle("active");
+            }
+        </script>
+     <img class="complogo"   src="images web/CS LOGO.png"  >
+       
+          
+        </div>
+       
     
   <header >
-    <h1>About the Computer Science Department, Ghana</h1>
+    
+    <h1 style="margin-top: 80px; margin-left: 300px;font-size: x-large;"> <span class="changing-text">About the computer science department university of Ghana</span>.</h1>
   </header>
+<section id ="welcome">   
+    <h2> Welcome</h2>
+    <p>  This is the Information Technology age and at its core is Computer Science. The study of computer science is therefore critical if society is to take full advantage of the benefits Information Technology has to offer and make rapid economic advances. Computer science involves the study and development of applications that allow for our everyday use of computers, the software systems that support these applications, and the means and methods used to produce both applications and systems that behave reliably, correctly and ethically. At the heart of Computer Science lies the skill of computer programming and employers who hire Computer Scientists expect adept programmers with knowledge of current techniques and tools and the ability to apply sound engineering principles to the development, construction and maintenance of computer programs.
 
+        The range of courses available in the department and the skills acquired by students enable them to find employment in many diverse fields of the economy and prepare our graduates for the computing industry, working in a project team (or research and development team), and to enable the graduate to bring specialist skills to that team. The course also provides the platform for further study or research through exposure to established and emerging technologies and methods, and to active fields of research in Computer Science.
+        
+        The Department offers two undergraduate degree programmes, Bachelor of Science in Computer Science Single-Major (3:2:1:1) and Major-Minor (3:2:2:1) as well as Bachelor of Science in Information Technology.</p>
+</section>
   <section id="mission-vision">
     <h2>Mission</h2>
-    <p>Our mission is to provide a transformative education that equips students with the knowledge, skills, and ethical values necessary to excel in the field of computer science. We strive to contribute to the advancement of knowledge through cutting-edge research and to make a positive impact on society by leveraging technology.</p>
-
+  <div class="grouped-content">  <p>Our mission is to provide a transformative education that equips students with the knowledge, skills, and ethical values necessary to excel in the field of computer science. We strive to contribute to the advancement of knowledge through cutting-edge research and to make a positive impact on society by leveraging technology.</p>
+   
+    <img class="img-fluid" src="images web/mission.jpg"  style="width: 500px;"> 
+</div>
+    
     <h2>Vision</h2>
     <p>To be a leading hub for computer science education and research in Ghana, empowering our students to become global leaders and innovators in the digital age.</p>
-  </section>
+  <img src="images web/vision.webp" alt="v" style="width: 400px;">
+</section>
 
   <section id="faculty">
     <h2>Faculty</h2>
+    <div class="faculty">
     <p>Our department boasts a diverse and accomplished faculty dedicated to both teaching and research. Our professors bring a wealth of experience from academia and industry, ensuring that our students receive a well-rounded education that is both academically rigorous and practically relevant.</p>
-  </section>
+ <img src="images web/faculty.jpg" alt="" style="width: 300px;"> </div>
+</section>
 
   <!-- Add more sections for Programs, Research, Facilities, Outreach, etc. -->
 

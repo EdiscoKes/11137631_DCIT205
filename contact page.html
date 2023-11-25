@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Contact Computer Science Department</title>
+  <style>
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color:rgb(3, 3, 83);
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  h1 {
+    margin: 0;
+  }
+  
+  p {
+    margin: 10px 0;
+  }
+  
+  .contact-form,
+  .contact-info {
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: rgb(5, 5, 59);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .contact-form h2,
+  .contact-info h2 {
+    color: #007BFF;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin-bottom: 5px;
+  }
+  
+  input,
+  textarea {
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  input[type="submit"] {
+    background-color: #007BFF;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+
+
+  nav {
+            margin-bottom: 20px;
+        }
+
+        nav a {
+            margin-right: 15px;
+            color: #007BFF;
+            text-decoration: none;
+        }
+
+
+
+
+  /* the navigation bar style  */
+
+  nav {
+            background-color:rgb(235, 206, 154);
+            overflow: hidden;
+            margin-left: 500px;
+            width: 30%; 
+            margin-bottom: 5px;
+
+            margin-top: 80px;
+
+        }
+
+        nav a {
+            float:right;
+            display: inline-block;
+            color: blue;
+            text-align: left;
+            padding: 14px 16px;
+            text-decoration: none;
+            width: 15%; 
+             box-sizing: border-box;
+             font-size: small;
+        }
+        nav a img {
+            max-width: 50%; 
+            height: auto;}
+
+        nav a:hover {
+            background-color: #f3d3d3;
+                color: black;}
+           
+
+        nav {
+            background-color:rgb(235, 206, 154);
+            overflow: hidden;
+            width: 50%;
+        }
+
+        nav a {
+            float: left;
+            display: block;
+            color: rgb(7, 7, 56);
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        nav a:hover {
+            
+            color: black;
+            text-decoration: underline;
+        }.complogo{
+            margin-top: -600px;
+        height: 60px;
+        width: 440px;
+        margin-left:-10px ;
+        top:50px ;
+         border-radius: 40px; 
+         background-color: rgb(235, 206, 154);;
+
+        
+       
+    }
+    .dropdown-btn {
+            background-color:rgb(235, 206, 154);
+            color: rgb(235, 206, 154);
+            padding: 10px 15px;
+            border: none;
+            cursor: pointer;
+            margin-top: -92px;
+            margin-left: 1200px;
+            position: absolute;
+            height: 5px;
+            
+            
+        }
+
+        /* Style for the dropdown container */
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+
+        /* Style for the dropdown content */
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color:white;
+            min-width: 160px;
+            z-index: 1;
+            margin-top: -30px;
+            margin-left: 1200px;
+        }
+
+        /* Style for the dropdown links */
+        .dropdown-content a {
+            color:blue;
+            padding: 12px 16px;
+            display: block;
+            text-decoration: none;
+            text-align: left;
+            font-size: 12px;
+        }
+
+        /* Change color on hover for the dropdown links */
+        .dropdown-content a:hover {
+            background-color:none;
+            color: black;
+        }
+
+        /* Show the dropdown content when clicking on the button */
+        .dropdown.active .dropdown-content {
+            display: block;
+        } 
+
+
+  
+
+</style>  
+</head>
+<body>
+
+
+   
+    <div style="background-color: rgb(235, 206, 154); margin-top: -80px; height:50px;  justify-content: cnter; ">
+   
+
+        <nav>
+            <a href="file:///C:/Users/USER/Desktop/205%20project%20work/205.html#catalog">
+                <img src="images web/homelogo.jpeg" alt="Home" style="width: 40px; border-radius: 40px;">
+            </a>
+            <a href="file:///C:/Users/USER/Desktop/205%20project%20work/contact%20pagee.html">Contact</a>
+            <a href="file:///C:/Users/USER/Desktop/205%20project%20work/About%20page.html">About</a>
+            <a href="file:///C:/Users/USER/Desktop/CS%20project/academic%20page.html">Academics</a>
+            <a href="file:///C:/Users/USER/Desktop/205%20project%20work/catalog%20page.html">Catalog</a>
+        </nav>
+    
+       
+       
+    
+    <div class="dropdown" id="dropdownButton">
+            <button class="dropdown-btn" onclick="toggleDropdown()"><img  style="width: 50px; height: 25; background-color: rgb(235, 206, 154); border-radius: 50px;"   src="images web/dropdown button.png"></button>
+            <div class="dropdown-content">
+                <a href="file:///C:/Users/USER/Desktop/205%20project%20work/Resouces%20page.html">Resources</a>
+                <a href="#academics">Academics</a>
+                <a href="#staff-profiles">Staff Profiles</a>
+                <a href="#admissions">Admissions</a>
+                <a href="#research">Research</a>
+    
+            </div>
+        </div>
+    
+       
+    
+        <script>
+            function toggleDropdown() {
+                var dropdown = document.getElementById("dropdownButton");
+                dropdown.classList.toggle("active");
+            }
+        </script>
+     <img class="complogo"   src="images web/CS LOGO.png"  >
+       
+          
+        </div>
+
+
+  <header>
+    <h1 >Computer Science Department</h1>
+    <p>Contact Us <img src="images web/contact.jpeg" style="width: 20px;"></p>
+  </header>
+ <section>
+    <h1> In case of any diifficulty finding your way out in the Computer science Department or you want some understanding about any doubt, u can con
+        contact the Computer science department through their email address below or fill the contact forms to send them your questions for detailed answers
+    </h1>
+ </section>
+  <section class="contact-form">
+    <h2>Contact Form</h2>
+    <form action="submit_form.php" method="post">
+      <label for="name"><b>Name</b></label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email"> <b>Email</b></label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="message"><b> Message</b></label>
+      <textarea id="message" name="message" rows="4" required></textarea>
+
+      <input type="submit" value="Submit">
+    </form>
+  </section>
+
+  <section class="contact-info">
+    <h2>Contact Information</h2>
+    <p>Email: <a href="mailto:csdept@example.com">csdept@example.com</a></p>
+    <p>Phone: +123 456 7890</p>
+    <p>Address: University of Ghana, Computer Science Department, Accra, Ghana</p>
+  </section>
+</body>
+</html>
