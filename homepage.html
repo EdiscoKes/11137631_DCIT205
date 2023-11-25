@@ -9,7 +9,7 @@
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             margin: 20px;
             line-height: 1.6;
-            background-color: #f8f8f8;
+            background-color:rgb(235, 206, 154);
             color: #333;
         }
 
@@ -99,7 +99,7 @@ header {
             color: #fff;
         }
         nav {
-            background-color:rgb(255, 255, 255);
+            background-color:rgb(235, 206, 154);
             overflow: hidden;
             margin-left: 500px;
             width: 30%; 
@@ -112,7 +112,7 @@ header {
         nav a {
             float:right;
             display: inline-block;
-            color: black;
+            color: blue;
             text-align: left;
             padding: 14px 16px;
             text-decoration: none;
@@ -125,12 +125,12 @@ header {
             height: auto;}
 
         nav a:hover {
-            background-color: #ddd;
+            background-color: #f3d3d3;
                 color: black;}
            
 
         nav {
-            background-color:white;
+            background-color:rgb(235, 206, 154);
             overflow: hidden;
             width: 50%;
         }
@@ -148,21 +148,25 @@ header {
             background-color: blue;
             color: black;
         }.complogo{
-            margin-top: -1000px;
-        height: 100px;
-        width: 500px;
+            margin-top: -5000px;
+        height: 60px;
+        width: 460px;
+        margin-left:-80px ;
+        top:50px ;
+
         
        
     }
     .dropdown-btn {
-            background-color:white;
-            color: white;
+            background-color:rgb(235, 206, 154);
+            color: rgb(235, 206, 154);
             padding: 10px 15px;
             border: none;
             cursor: pointer;
-            margin-top: -80px;
+            margin-top: -92px;
             margin-left: 1200px;
             position: absolute;
+            
             
         }
 
@@ -195,7 +199,7 @@ header {
 
         /* Change color on hover for the dropdown links */
         .dropdown-content a:hover {
-            background-color: #ddd;
+            background-color:none;
             color: black;
         }
 
@@ -205,7 +209,7 @@ header {
         } 
   
         .banner-container {
-            background-color: #333;
+            background-color:rgb(17, 17, 95);
             color: #fff;
             text-align: center;
             padding: 20px;
@@ -246,24 +250,51 @@ header {
                 color: #33ff57; /* Final color */
             }
         }
+
+        header {
+            background-image: url('images web/CSbackground\ image.webp'); /* Replace with the path to your image */
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            text-align: center;
+            color: #fff; /* Set the text color to contrast with the background image */
+            padding: 100px 0; /* Adjust padding as needed */
+             width: 100%;   
+             display: block; 
+                
+        }
+
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 1.2em;
+        }
     
+        
+        .hidden {
+            display: none;
+        }
+    </style>
 
 
 
-  </style>
+   </style>
 </head>
 <body>
     <div class="banner-container">
         <div class="moving-text">
-            Welcome to the Computer Science Department
+            Welcome to the  University Of Ghana Science  Website 
         </div>
     </div>
 
     
-<div style="background-color: aqua; margin-top: -80px;">
+<div style="background-color: rgb(235, 206, 154); margin-top: -80px; height:50px;">
     <nav>
         <a href="file:///C:/Users/USER/Desktop/205%20project%20work/205.html#catalog">
-            <img src="https://png.pngtree.com/png-clipart/20210521/ourmid/pngtree-home-button-ui-ux-png-image_3308787.jpg" alt="Home">
+            <img src="images web/homelogo.jpeg" alt="Home" style="width: 40px; border-radius: 40px;">
         </a>
         <a href="file:///C:/Users/USER/Desktop/205%20project%20work/contact%20pagee.html">Contact</a>
         <a href="file:///C:/Users/USER/Desktop/205%20project%20work/About%20page.html">About</a>
@@ -276,7 +307,7 @@ header {
 
 
 <div class="dropdown" id="dropdownButton">
-        <button class="dropdown-btn" onclick="toggleDropdown()"><img  style="width: 30px;"   src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQICSn8jYtAm-pIJ8cVweJlWYB-rtVhCFSf47mzdYh4OY1HfaYQrEKs6hSTHu2pTXsa1kQ&usqp=CAU"></button>
+        <button class="dropdown-btn" onclick="toggleDropdown()"><img  style="width: 50px; height: 25; background-color: rgb(235, 206, 154); border-radius: 50px;"   src="images web/dropdown button.png"></button>
         <div class="dropdown-content">
             <a href="file:///C:/Users/USER/Desktop/205%20project%20work/Resouces%20page.html">Resources</a>
             <a href="#academics">Academics</a>
@@ -301,9 +332,20 @@ header {
     
 
 
-    <header>
-        <h1>Computer Science Department</h1>
-        <p>University of Ghana</p>
+    <header><div id="textElement">Computer Science</div>
+
+        <script>
+            // Function to toggle visibility
+            function toggleText() {
+                var textElement = document.getElementById("textElement");
+                textElement.classList.toggle("hidden");
+            }
+    
+            // Call the function after a delay
+            setTimeout(toggleText, 2000); // Adjust the delay as needed
+        </script>
+    
+
     </header>
 
     
