@@ -3,92 +3,41 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
-  <title>Contact Computer Science Department</title>
+  <title>Computer Department Events - University of Ghana</title>
   <style>
-  body {
-    font-family: 'Arial', sans-serif;
-    background-color: #f4f4f4;
-    margin: 0;
-    padding: 0;
-  }
-  
-  header {
-    background-color:rgb(3, 3, 83);
-    color: #fff;
-    text-align: center;
-    padding: 20px 0;
-    background-image: url('https://lh3.googleusercontent.com/p/AF1QipNQ2-kBi20TlKJVLBk-f9S_QU9PWYm1K0mdx1Es=s1600-w400');
-    height: 200px;
-  }
-  
-  h1 {
-    margin: 0;
-  }
-  
-  p {
-    margin: 10px 0;
-  }
-  
-  .contact-form,
-  .contact-info {
-    max-width: 600px;
-    margin: 20px auto;
-    background-color: rgb(5, 5, 59);
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  }
-  
-  .contact-form h2,
-  .contact-info h2 {
-    color: #007BFF;
-  }
-  
-  form {
-    display: flex;
-    flex-direction: column;
-  }
-  
-  label {
-    margin-bottom: 5px;
-  }
-  
-  input,
-  textarea {
-    margin-bottom: 10px;
-    padding: 8px;
-    border: 1px solid #ccc;
-    border-radius: 3px;
-  }
-  
-  input[type="submit"] {
-    background-color: #007BFF;
-    color: #fff;
-    cursor: pointer;
-  }
-  
-  input[type="submit"]:hover {
-    background-color: #0056b3;
-  }
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #003366; /* University of Ghana's color */
+      color: #fff;
+      text-align: center;
+      padding: 1em;
+      background-image: url('https://pbs.twimg.com/media/EBZ6b6xXUAIjz9_.jpg');
+      height :400px;
+      
+    }
+
+   
+
+    section {
+      padding: 20px;
+    }
+
+    footer {
+      background-color: #003366;
+      color: #fff;
+      text-align: center;
+      padding: 1em;
+      position: absolute;
+      width: 100%;
+    }
 
 
-  nav {
-            margin-bottom: 20px;
-        }
-
-        nav a {
-            margin-right: 15px;
-            color: #007BFF;
-            text-decoration: none;
-        }
-
-
-
-
-  /* the navigation bar style  */
-
-  nav {
+    nav {
             background-color:rgb(235, 206, 154);
             overflow: hidden;
             margin-left: 500px;
@@ -201,16 +150,18 @@
         .dropdown.active .dropdown-content {
             display: block;
         } 
-
-
   
 
-</style>  
+
+
+
+
+
+
+
+  </style>
 </head>
 <body>
-
-
-   
     <div style="background-color: rgb(235, 206, 154); margin-top: -80px; height:50px;  justify-content: cnter; ">
    
 
@@ -220,7 +171,7 @@
             </a>
             <a href="file:///C:/Users/USER/Desktop/205%20project%20work/contact%20pagee.html">Contact</a>
             <a href="file:///C:/Users/USER/Desktop/205%20project%20work/About%20page.html">About</a>
-            <a href="file:///C:/Users/USER/Desktop/CS%20project/academic%20page.html">Academics</a>
+            <a href="file:///C:/Users/USER/Desktop/CS%20project/academic%20page.html">Events</a>
             <a href="file:///C:/Users/USER/Desktop/205%20project%20work/catalog%20page.html">Catalog</a>
         </nav>
     
@@ -251,38 +202,62 @@
        
           
         </div>
-
+       
 
   <header>
-    <h1 >Computer Science Department</h1>
-    <p>Contact Us <img src="images web/contact.jpeg" style="width: 20px;"></p>
+    <h1>Computer Science Department Events</h1>
+    <p>University of Ghana</p>
   </header>
- <section>
-    <h1> In case of any diifficulty finding your way out in the Computer science Department or you want some understanding about any doubt, u can con
-        contact the Computer science department through their email address below or fill the contact forms to send them your questions for detailed answers
-    </h1>
- </section>
-  <section class="contact-form">
-    <h2>Contact Form</h2>
-    <form action="submit_form.php" method="post">
-      <label for="name"><b>Name</b></label>
-      <input type="text" id="name" name="name" required>
 
-      <label for="email"> <b>Email</b></label>
-      <input type="email" id="email" name="email" required>
+ 
 
-      <label for="message"><b> Message</b></label>
-      <textarea id="message" name="message" rows="4" required></textarea>
+  <section id="upcoming-events">
+    <h2 style="color: #003366;">Upcoming Events </h2>
+    <p> Sorry no schedule events yet</p>
+    <ul>
+      <li>
+        <h3 style="color: #003366;">Event 1: Title</h3>
+        <p>Date: MM/DD/YYYY</p>
+        <p>Time: HH:MM AM/PM</p>
+        <p>Description: Brief description of the event.</p>
+      </li>
+      <li>
+        <h3 style="color: #003366;">Event 2: Title</h3>
+        <p>Date: MM/DD/YYYY</p>
+        <p>Time: HH:MM AM/PM</p>
+        <p>Description: Brief description of the event.</p>
+      </li>
+      <!-- Add more upcoming events as needed -->
+    </ul>
+  </section>
+  <section>   
+  <h2 style="color: #003366;"> Past Events</h2>
+  <img src="images web/CS EV2.jpeg"  style="width: 250px; margin-left: 50px;">
+  <img src="images web/CSEVENT.jpeg" style="width: 400px; margin-left: 100px;">
+</section>
 
-      <input type="submit" value="Submit">
-    </form>
+  <section id="event-schedule">
+    <h2 style="color: #003366;">Event Schedule</h2>
+    <p>View the schedule for each event, including key activities and sessions.</p>
+    <!-- Provide detailed schedule information -->
   </section>
 
-  <section class="contact-info">
-    <h2>Contact Information</h2>
-    <p>Email: <a href="mailto:csdept@example.com">csdept@example.com</a></p>
+  <section id="registration">
+    <h2 style="color: #003366;" >Event Registration</h2>
+    <p>No events to register</p>
+    <!-- Add a registration form or link to an external registration platform -->
+  </section>
+
+  <section id="contact">
+    <h2 style="color: #003366;">Contact Information</h2>
+    <p>For more information about our events, please contact the Computer Department at:</p>
+    <p>Email: computer.department@university.edu</p>
     <p>Phone: +123 456 7890</p>
-    <p>Address: University of Ghana, Computer Science Department, Accra, Ghana</p>
   </section>
+
+  <footer>
+    <p>&copy; 2023 University of Ghana - Computer Department</p>
+  </footer>
+
 </body>
 </html>
