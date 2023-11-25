@@ -13,6 +13,55 @@
             color: #333;
         }
 
+/* demontration */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px; /* Adjust the height as needed */
+    background-color: #f0f0f0; /* Add a background color if desired */
+    padding: 10px; /* Add padding as needed */
+}
+
+.logo,
+.cta-button,
+.navigation-bar {
+    margin: 0 10px; /* Adjust the margin as needed */
+}
+
+
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .logo,
+    .cta-button,
+    .navigation-bar {
+        margin: 10px 0;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        /* demonstration */
         header {
             background-color: #007BFF;
             padding: 15px;
@@ -99,9 +148,11 @@
             background-color: blue;
             color: black;
         }.complogo{
-        
-        margin-top: -1000px;
+            margin-top: -1000px;
         height: 100px;
+        width: 500px;
+        
+       
     }
     .dropdown-btn {
             background-color:white;
@@ -153,13 +204,63 @@
             display: block;
         } 
   
+        .banner-container {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        /* Style for the moving and changing text */
+        .moving-text {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 24px;
+            white-space: nowrap; /* Prevent text from wrapping */
+            animation: moveAndChange 5s infinite; /* Adjust animation duration */
+        }
+
+        @keyframes moveAndChange {
+            0% {
+                transform: translate(-50%, -50%);
+                color: #ff5733; /* Initial color */
+            }
+            25% {
+                transform: translate(-50%, -50%) translateY(-30px);
+                color: #33ff57; /* Color at 25% */
+            }
+            50% {
+                transform: translate(-50%, -50%);
+                color: #5733ff; /* Color at 50% */
+            }
+            75% {
+                transform: translate(-50%, -50%) translateY(-30px);
+                color: #ff5733; /* Color at 75% */
+            }
+            100% {
+                transform: translate(-50%, -50%);
+                color: #33ff57; /* Final color */
+            }
+        }
+    
 
 
 
   </style>
 </head>
 <body>
+    <div class="banner-container">
+        <div class="moving-text">
+            Welcome to the Computer Science Department
+        </div>
+    </div>
 
+    
+<div style="background-color: aqua; margin-top: -80px;">
     <nav>
         <a href="file:///C:/Users/USER/Desktop/205%20project%20work/205.html#catalog">
             <img src="https://png.pngtree.com/png-clipart/20210521/ourmid/pngtree-home-button-ui-ux-png-image_3308787.jpg" alt="Home">
@@ -169,6 +270,8 @@
         <a href="file:///C:/Users/USER/Desktop/CS%20project/academic%20page.html">Academics</a>
         <a href="file:///C:/Users/USER/Desktop/205%20project%20work/catalog%20page.html">Catalog</a>
     </nav>
+
+   
 
 
 
@@ -191,7 +294,11 @@
             dropdown.classList.toggle("active");
         }
     </script>
-    <img class="complogo"   src="https://dcs.ug.edu.gh/img/comScience_logo.png" style="width:350px" >
+    <img class="complogo"   src="images web/CS LOGO.png"  >
+      
+    </div>
+   
+    
 
 
     <header>
