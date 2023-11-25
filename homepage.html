@@ -9,8 +9,8 @@
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             margin: 20px;
             line-height: 1.6;
-            background-color:rgb(235, 206, 154);
-            color: #333;
+            background-color:whitesmoke;
+            color:rgb(0, 0, 0);
         }
 
 /* demontration */
@@ -41,22 +41,8 @@ header {
         height: auto;
     }
 
-    .logo,
-    .cta-button,
-    .navigation-bar {
-        margin: 10px 0;
-    }
+    
 }
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -138,21 +124,24 @@ header {
         nav a {
             float: left;
             display: block;
-            color: black;
+            color: rgb(7, 7, 56);
             text-align: center;
             padding: 14px 16px;
             text-decoration: none;
         }
 
         nav a:hover {
-            background-color: blue;
+            
             color: black;
+            text-decoration: underline;
         }.complogo{
-            margin-top: -5000px;
+            margin-top: -600px;
         height: 60px;
-        width: 460px;
-        margin-left:-80px ;
+        width: 440px;
+        margin-left:-10px ;
         top:50px ;
+         border-radius: 40px; 
+         background-color: rgb(235, 206, 154);;
 
         
        
@@ -166,6 +155,7 @@ header {
             margin-top: -92px;
             margin-left: 1200px;
             position: absolute;
+            height: 5px;
             
             
         }
@@ -277,7 +267,47 @@ header {
         .hidden {
             display: none;
         }
-    </style>
+
+
+
+@keyframes slide {
+    0% {
+                transform: translateX(-100%);
+            }
+            100% {
+                transform: translateX(100%);
+            }
+}
+
+#textElement {
+    white-space: nowrap; /* Prevent text from wrapping */
+    overflow: hidden; /* Hide overflow text */
+    animation: slide 50s linear infinite; /* Adjust the duration as needed */
+    font-size: 50px;
+}
+
+
+
+
+
+
+        /* Style for the row container */
+        .row {
+            display: flex; /* Use flexbox for a row layout */
+            align-items: center; /* Center items vertically */
+        }
+
+        /* Style for the image */
+        .image {
+            width: 100px; /* Adjust the width as needed */
+            height: auto; /* Maintain aspect ratio */
+            margin-right: 10px; /* Adjust spacing between image and text */
+        }
+
+        /* Style for the text */
+        .text {
+            font-size: 18px; /* Adjust the font size as needed */
+        }
 
 
 
@@ -286,12 +316,14 @@ header {
 <body>
     <div class="banner-container">
         <div class="moving-text">
-            Welcome to the  University Of Ghana Science  Website 
+            Welcome to the  University Of Ghana  Computer Science  Website 
         </div>
     </div>
 
     
-<div style="background-color: rgb(235, 206, 154); margin-top: -80px; height:50px;">
+<div style="background-color: rgb(235, 206, 154); margin-top: -80px; height:50px;  justify-content: cnter; ">
+   
+
     <nav>
         <a href="file:///C:/Users/USER/Desktop/205%20project%20work/205.html#catalog">
             <img src="images web/homelogo.jpeg" alt="Home" style="width: 40px; border-radius: 40px;">
@@ -303,8 +335,7 @@ header {
     </nav>
 
    
-
-
+   
 
 <div class="dropdown" id="dropdownButton">
         <button class="dropdown-btn" onclick="toggleDropdown()"><img  style="width: 50px; height: 25; background-color: rgb(235, 206, 154); border-radius: 50px;"   src="images web/dropdown button.png"></button>
@@ -314,10 +345,11 @@ header {
             <a href="#staff-profiles">Staff Profiles</a>
             <a href="#admissions">Admissions</a>
             <a href="#research">Research</a>
+
         </div>
     </div>
 
-    <!-- Your website content goes here -->
+   
 
     <script>
         function toggleDropdown() {
@@ -325,64 +357,80 @@ header {
             dropdown.classList.toggle("active");
         }
     </script>
-    <img class="complogo"   src="images web/CS LOGO.png"  >
+ <img class="complogo"   src="images web/CS LOGO.png"  >
+   
       
     </div>
    
     
 
 
-    <header><div id="textElement">Computer Science</div>
+    <header><div id="textElement"> <img src="images web/Ug logo.png" style="width: 30px;" >  Computer Science Department</div>
 
-        <script>
-            // Function to toggle visibility
-            function toggleText() {
-                var textElement = document.getElementById("textElement");
-                textElement.classList.toggle("hidden");
-            }
-    
-            // Call the function after a delay
-            setTimeout(toggleText, 2000); // Adjust the delay as needed
-        </script>
-    
 
     </header>
 
     
+    <div class="row" style=" display: inline-block;">
+       
+        <h2>Welcome to the computer science department </h2>
+        <p class="text">Explore our programs, research activities, and stay updated with the latest news and events.</p>
+        <img src="images web/welcome Cs.jpeg" style="width: 300px; margin-right: 20px;">
+    <img src="images web/abouts.jpeg" alt="abt" width="400px">
+    </div>
 
-    <section>
-        <h2>Welcome to the Computer Science Department</h2>
-        <p>Explore our programs, research activities, and stay updated with the latest news and events.</p>
-    </section>
 
+
+    
+       
+    
+<div  class="s1" style=" display: inline-block; width: 1000px; margin-left: 500px;">   
     <section>
         <h2>About Us</h2>
         <p>The Computer Science Department at the University of Ghana is committed to excellence in teaching, research, and innovation. Our dedicated faculty and students contribute to the advancement of computer science in various domains.</p>
+    <img src="images web/about-img2.jpeg" style="width: 600px;">
+    
     </section>
 
+
+</div>
+
+<div class="s2" style=" display: inline-block;">
     <section>
         <h2>Admission</h2>
         <p>Discover the admission requirements and how we deliver our courses to provide a comprehensive education in computer science.</p>
+    <img src="images web/UNIVERSITY-OF-GHANA-ADMISSION-DETAILS.jpg.webp" style="width: 400px;">
+    
+    
     </section>
 
+
+</div>
+<div class="s3" style="display: inline-block;"> 
     <section>
         <h2>Research</h2>
         <p>Explore our cutting-edge research areas and stay informed about the latest publications and projects from our department.</p>
+    <img src="images web/research.jpg" style="width: 600px; margin-left: 400px;">
     </section>
+</div>
 
+<div class="s4" style=" display: inline-block; "> 
     <section>
         <h2>Courses</h2>
         <p>Learn about our diverse range of courses designed to equip students with the skills and knowledge needed in the dynamic field of computer science.</p>
+        <img src="images web/Cyber Security.jpg" style="width: 500px; margin-left:500px; margin-bottom:10px;">
     </section>
+ </div>
 
+ <div class="s5" style="display: inline-block; background-color:rgb(187, 157, 101); border-style: double;">  
     <section>
         <h2>Contact Us</h2>
         <p>For inquiries and more information, please contact us:</p>
         <p>Email: <a href="mailto:info@cs.ug.edu.gh">info@cs.ug.edu.gh</a></p>
         <p>Phone: +233 123 456 789</p>
     </section>
-
-    <footer>
+</div>
+    <footer class="foot" style="background-color: rgb(8, 8, 143); color: black;">
         <p>&copy; 2023 Computer Science Department, University of Ghana</p>
     </footer>
 
