@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Computer Department Resources - University of Ghana</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #003366; /* University of Ghana's color */
+      color: rgb(4, 4, 102);
+      text-align: center;
+      padding: 1em;
+      background-image: url('https://blogs.bodleian.ox.ac.uk/ssl/wp-content/uploads/sites/136/2018/06/ITArea_small.jpg');
+      height: 300px;
+    
+    }
+h2{
+  color: #003366;
+}
+
+   
+
+    section {
+      padding: 20px;
+    }
+
+    footer {
+      background-color: #003366;
+      color: #fff;
+      text-align: center;
+      padding: 1em;
+      position: absolute;
+
+
+      width: 100%;
+
+    }
+
+
+    nav {
+            background-color:rgb(235, 206, 154);
+            overflow: hidden;
+            margin-left: 500px;
+            width: 30%; 
+            margin-bottom: 5px;
+
+            margin-top: 80px;
+            
+            
+
+        }
+
+        nav a {
+            float:right;
+            display: inline-block;
+            color: blue;
+            text-align: left;
+            padding: 14px 16px;
+            text-decoration: none;
+            width: 15%; 
+             box-sizing: border-box;
+             font-size: small;
+             
+            
+        }
+        nav a img {
+            max-width: 50%; 
+            height: auto;}
+
+        nav a:hover {
+            background-color: #f3d3d3;
+                color: black;}
+           
+
+        nav {
+            background-color:rgb(235, 206, 154);
+            overflow: hidden;
+            width: 50%;
+        }
+
+        nav a {
+            float: left;
+            display: block;
+            color: rgb(7, 7, 56);
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        nav a:hover {
+            
+            color: black;
+            text-decoration: underline;
+        }.complogo{
+            margin-top: -600px;
+        height: 60px;
+        width: 440px;
+        margin-left:-10px ;
+        top:50px ;
+         border-radius: 40px; 
+         background-color: rgb(235, 206, 154);
+         
+         
+
+        
+       
+    }
+    .dropdown-btn {
+            background-color:rgb(235, 206, 154);
+            color: rgb(235, 206, 154);
+            padding: 10px 15px;
+            border: none;
+            cursor: pointer;
+            margin-top: -92px;
+            margin-left: 1200px;
+            position: fixed;
+            height: 5px;
+            position: absolute;
+            
+            
+        }
+
+        /* Style for the dropdown container */
+        .dropdown {
+            position: absolute;
+            display: inline-block;
+        }
+
+        /* Style for the dropdown content */
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color:white;
+            min-width: 160px;
+            z-index: 1;
+            margin-top: -30px;
+            margin-left: 1200px;
+        }
+
+        /* Style for the dropdown links */
+        .dropdown-content a {
+            color:blue;
+            padding: 12px 16px;
+            display: block;
+            text-decoration: none;
+            text-align: left;
+            font-size: 12px;
+        }
+
+        /* Change color on hover for the dropdown links */
+        .dropdown-content a:hover {
+            background-color:none;
+            color: black;
+        }
+
+        /* Show the dropdown content when clicking on the button */
+        .dropdown.active .dropdown-content {
+            display: block;
+        } 
+
+  
+
+
+
+  </style>
+</head>
+<body>
+    <div style="background-color: rgb(235, 206, 154); margin-top: -80px; height:50px;  justify-content: cnter; ">
+   
+
+        <nav>
+            <a href="file:///C:/Users/USER/Desktop/205%20project%20work/205.html#catalog">
+                <img src="images web/homelogo.jpeg" alt="Home" style="width: 40px; border-radius: 40px;">
+            </a>
+            <a href="file:///C:/Users/USER/Desktop/205%20project%20work/contact%20pagee.html">Contact</a>
+            <a href="file:///C:/Users/USER/Desktop/205%20project%20work/About%20page.html">About</a>
+            <a href="file:///C:/Users/USER/Desktop/CS%20project/academic%20page.html">Events</a>
+            <a href="file:///C:/Users/USER/Desktop/205%20project%20work/catalog%20page.html">Catalog</a>
+        </nav>
+    
+       
+       
+    
+    <div class="dropdown" id="dropdownButton">
+            <button class="dropdown-btn" onclick="toggleDropdown()"><img  style="width: 50px; height: 25; background-color: rgb(235, 206, 154); border-radius: 50px;"   src="images web/dropdown button.png"></button>
+            <div class="dropdown-content">
+                <a href="file:///C:/Users/USER/Desktop/205%20project%20work/Resouces%20page.html">Resources</a>
+                <a href="#academics">Academics</a>
+                <a href="#staff-profiles">Staff Profiles</a>
+                <a href="#admissions">Admissions</a>
+                <a href="#research">Research</a>
+    
+            </div>
+        </div>
+    
+       
+    
+        <script>
+            function toggleDropdown() {
+                var dropdown = document.getElementById("dropdownButton");
+                dropdown.classList.toggle("active");
+            }
+        </script>
+     <img class="complogo"   src="images web/CS LOGO.png"  >
+       
+          
+        </div>
+   
+    
+
+   
+
+  <header>
+    <h1 style="margin-top: 100px; background-color: rgb(9, 9, 102); color: white; width: 1000px; margin-left: 100px;">Computer Department Resources</h1>
+    <p>University of Ghana</p>
+  </header>
+
+ 
+  <section id="labs">
+    <h2>Our Labs</h2>
+    <p>Explore our state-of-the-art computer labs equipped with the latest technology.</p>
+    <p1>Our ultra-modern computer science lab is a cutting-edge facility designed to immerse students in an environment that mirrors the latest advancements in technology and provides unparalleled resources for learning and innovation. </p1>
+    
+    
+    <img src="images web/r1.jpg">
+  </section>
+
+  <section id="tools">
+    <h2>Software and Tools</h2>
+    <p>Discover the tools and software resources available to students and faculty.</p>
+    <img src="images web/st1.png" style="width: 500px;">
+    <img src="images web/st2.jpeg" style="width: 400px;">
+    <img src="images web/st3.jpg" style="width: 500px;" >
+    
+  </section>
+
+  <section id="documentation">
+    <h2>Documentation</h2>
+    <p>Access documentation and guides for courses, software, and other resources.</p>
+    <p> The ultra-modern computer science lab is an innovative and forward-thinking space that sets the standard for contemporary educational environments. Engineered to cultivate a deep understanding of computer science concepts and practical skills, this lab seamlessly integrates state-of-the-art technology, collaborative workspaces, and advanced tools to empower students in their pursuit of knowledge and skill development.
+
+      The physical infrastructure of the lab is characterized by a combination of ergonomic furniture, strategically arranged workstations, and a futuristic aesthetic. The layout is designed to promote collaboration and flexibility, offering both individual workstations and communal areas to facilitate diverse learning experiences.
+      
+      At the heart of the lab are powerful computing systems with the latest hardware specifications and software tools. High-performance servers, robust development workstations, and a variety of computing devices provide students with the computational power needed for complex programming tasks, simulations, and data analysis.
+      
+      Large high-resolution displays and interactive smart boards adorn the lab's walls, creating an immersive environment for interactive lectures, coding demonstrations, and collaborative projects. The integration of augmented reality (AR) and virtual reality (VR) technologies further enhances the learning experience, allowing students to visualize abstract concepts and explore virtual computer systems.
+      
+      Discipline-specific areas within the computer science lab cater to various aspects of the field. Specialized sections may include dedicated spaces for software development, network configuration, cybersecurity simulations, and artificial intelligence research. Each area is equipped with cutting-edge tools and resources tailored to the specific needs of the discipline.
+      
+      The lab boasts a comprehensive selection of development environments, programming languages, and software applications. From industry-standard IDEs (Integrated Development Environments) to the latest frameworks and libraries, students have access to a diverse ecosystem that prepares them for real-world software development challenges.
+      
+      Collaboration is encouraged through the integration of collaborative coding platforms, version control systems, and project management tools. Group workstations equipped with collaborative displays and video conferencing capabilities facilitate teamwork, enabling students to work on software projects, conduct research, and participate in hackathons.
+      
+      In addition to the physical infrastructure, the computer science lab is connected to a virtual learning environment. An extensive digital library, online courses, and interactive tutorials provide supplementary resources for self-paced learning, ensuring that students have access to a wealth of information beyond the confines of the physical lab.
+      
+      Expert faculty members and technical support staff contribute to the success of the computer science lab. Their expertise spans a wide range of specialties, from software engineering and machine learning to cybersecurity and database management. The lab becomes a hub for mentorship, workshops, and collaborative research initiatives, fostering a community of learning and innovation. </p>
+    
+  </section>
+
+  <section id="contact">
+    <h2>Contact Information</h2>
+    <p>For more information about our resources, please contact the Computer Department at:</p>
+    <p>Email: computer.department@university.edu</p>
+    <p>Phone: +123 456 7890</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2023 University of Ghana - Computer Department</p>
+  </footer>
+
+</body>
+</html>
