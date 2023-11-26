@@ -3,92 +3,43 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
-  <title>Contact Computer Science Department</title>
+  <title>Computer Department Catalog - University of Ghana</title>
   <style>
-  body {
-    font-family: 'Arial', sans-serif;
-    background-color: #f4f4f4;
-    margin: 0;
-    padding: 0;
-  }
-  
-  header {
-    background-color:rgb(3, 3, 83);
-    color: #fff;
-    text-align: center;
-    padding: 20px 0;
-    background-image: url('https://lh3.googleusercontent.com/p/AF1QipNQ2-kBi20TlKJVLBk-f9S_QU9PWYm1K0mdx1Es=s1600-w400');
-    height: 200px;
-  }
-  
-  h1 {
-    margin: 0;
-  }
-  
-  p {
-    margin: 10px 0;
-  }
-  
-  .contact-form,
-  .contact-info {
-    max-width: 600px;
-    margin: 20px auto;
-    background-color: rgb(179, 179, 209);
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px blue;
-  }
-  
-  .contact-form h2,
-  .contact-info h2 {
-    color: rgb(3, 3, 83);;
-  }
-  
-  form {
-    display: flex;
-    flex-direction: column;
-  }
-  
-  label {
-    margin-bottom: 5px;
-  }
-  
-  input,
-  textarea {
-    margin-bottom: 10px;
-    padding: 8px;
-    border: 1px solid #ccc;
-    border-radius: 3px;
-  }
-  
-  input[type="submit"] {
-    background-color: #007BFF;
-    color: #fff;
-    cursor: pointer;
-  }
-  
-  input[type="submit"]:hover {
-    background-color: #0056b3;
-  }
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #003366; /* University of Ghana's color */
+      color: #fff;
+      text-align: center;
+      padding: 1em;
+      background-image: url('https://balme.ug.edu.gh/images/ap-smart-layerslider/homepage/6.png');
+      height:200px;
+    }
+
+   
+    section {
+      padding: 20px;
+    }
+
+    footer {
+      background-color: #003366;
+      color: #fff;
+      text-align: center;
+      padding: 1em;
+      position: absolute;
+      width: 2000px;
+      margin-left: -200px;
+
+      
+    }
 
 
-  nav {
-            margin-bottom: 20px;
-        }
-
-        nav a {
-            margin-right: 15px;
-            color: #007BFF;
-            text-decoration: none;
-        }
-
-
-
-
-  /* the navigation bar style  */
-
-  nav {
+    /* the navigation bar style  */
+    nav {
             background-color:rgb(235, 206, 154);
             overflow: hidden;
             margin-left: 500px;
@@ -202,23 +153,15 @@
             display: block;
         } 
 
+        .h2 {
+            color: #003366;
+        }
 
 
-        footer {
-            background-color: rgb(3, 3, 83);;
-            padding: 15px;
-            text-align: center;
-            color: #0c0505;}
-
-
-  
-
-</style>  
+  </style>
 </head>
 <body>
 
-
-   
     <div style="background-color: rgb(235, 206, 154); margin-top: -80px; height:50px;  justify-content: cnter; ">
    
 
@@ -228,7 +171,7 @@
             </a>
             <a href="file:///C:/Users/USER/Desktop/205%20project%20work/contact%20pagee.html">Contact</a>
             <a href="file:///C:/Users/USER/Desktop/205%20project%20work/About%20page.html">About</a>
-            <a href="file:///C:/Users/USER/Desktop/CS%20project/academic%20page.html">Academics</a>
+            <a href="file:///C:/Users/USER/Desktop/CS%20project/academic%20page.html">Events</a>
             <a href="file:///C:/Users/USER/Desktop/205%20project%20work/catalog%20page.html">Catalog</a>
         </nav>
     
@@ -259,45 +202,49 @@
        
           
         </div>
+   
 
 
   <header>
-    <h1 >Computer Science Department</h1>
-    <p>Contact Us <img src="images web/contact.jpeg" style="width: 20px;"></p>
+    <h1>Computer  Science Department Catalog</h1>
+    <p>University of Ghana</p>
   </header>
- <section>
-    <h1> In case of any diifficulty finding your way out in the Computer science Department or you want some understanding about any doubt, u can con
-        contact the Computer science department through their email address below or fill the contact forms to send them your questions for detailed answers
-    </h1>
- </section>
-  <section class="contact-form">
-    <h2>Contact Form</h2>
-    <form action="submit_form.php" method="post">
-      <label for="name"><b>Name</b></label>
-      <input type="text" id="name" name="name" required>
 
-      <label for="email"> <b>Email</b></label>
-      <input type="email" id="email" name="email" required>
 
-      <label for="message"><b> Message</b></label>
-      <textarea id="message" name="message" rows="4" required></textarea>
-
-      <input type="submit" value="Submit">
-    </form>
+  <section id="courses">
+    <h2 style="color: #003366;">Available Courses</h2>
+   <img src="images web/couseimg1.png" style="width: 300px;">
+   <img src="images web/Cyber Security.jpg" style="width: 300px;">
+   <img src="images web/CCNA.png" style="width: 300px;">
+   <img src="images web/Mobile App Dev.jpg" width="300px">
   </section>
 
-  <section class="contact-info">
-    <h2>Contact Information</h2>
-    <p>Email: <a href="mailto:csdept@example.com">csdept@example.com</a></p>
+  <section id="faculty">
+    <h2 style="color: #003366;">Meet Our Faculty</h2>
+    <ul>
+      <li>Ebenezer Owusu - Head Of Department</li>
+      <img src="images web/HOD.jpeg">
+      
+    </ul>
+  </section>
+
+  <section id="resources">
+    <h2 style="color: #003366;">Additional Resources</h2>
+    <p>Explore additional resources, labs, and facilities available to students.</p>
+    <img src="images web/ebook3.jpg">
+    <img src="images web/soft1.png" alt="">
+  </section>
+
+  <section id="contact">
+    <h2  style="color: #003366;">Contact Information</h2>
+    <p>For inquiries, please contact the Computer Department at:</p>
+    <p>Email: computer.department@university.edu</p>
     <p>Phone: +123 456 7890</p>
-    <p>Address: University of Ghana, Computer Science Department, Accra, Ghana</p>
   </section>
 
-
-
-  <footer class="foot" style="background-color: rgb(8, 8, 143); color: black;">
-    <p>&copy; 2023 Computer Science Department, University of Ghana</p>
-</footer>
+  <footer>
+    <p>&copy; 2023 University of Ghana - Computer Department</p>
+  </footer>
 
 </body>
 </html>
