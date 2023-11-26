@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Computer Science Department Admission</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 20px;
+            line-height: 1.6;
+            background-color: #f8f8f8;
+            color: #333;
+        }
+
+        header {
+            background-color:#032b55;
+            padding: 15px;
+            text-align: center;
+            color: #fff;
+            background-image: url('https://www.ug.edu.gh/ugmellon/sites/default/files/slider/homepageback2.jpg');
+            height: 300px;
+        }
+
+        
+        
+
+        section {
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            color: #007BFF;
+        }
+
+        p {
+            margin-bottom: 16px;
+            color: #555;
+        }
+
+        ul {
+            list-style-type: disc;
+            margin-left: 20px;
+            margin-bottom: 16px;
+        }
+
+        ol {
+            list-style-type: decimal;
+            margin-left: 20px;
+            margin-bottom: 16px;
+        }
+
+        footer {
+            background-color:#032b55;
+            padding: 15px;
+            text-align: center;
+            color:black;
+        }
+    
+
+   /* the navigation bar style  */
+
+   nav {
+            background-color:rgb(235, 206, 154);
+            overflow: hidden;
+            margin-left: 500px;
+            width: 30%; 
+            margin-bottom: 5px;
+
+            margin-top: 80px;
+
+        }
+
+        nav a {
+            float:right;
+            display: inline-block;
+            color: blue;
+            text-align: left;
+            padding: 14px 16px;
+            text-decoration: none;
+            width: 15%; 
+             box-sizing: border-box;
+             font-size: small;
+        }
+        nav a img {
+            max-width: 50%; 
+            height: auto;}
+
+        nav a:hover {
+            background-color: #f3d3d3;
+                color: black;}
+           
+
+        nav {
+            background-color:rgb(235, 206, 154);
+            overflow: hidden;
+            width: 50%;
+        }
+
+        nav a {
+            float: left;
+            display: block;
+            color: rgb(7, 7, 56);
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        nav a:hover {
+            
+            color: black;
+            text-decoration: underline;
+        }.complogo{
+            margin-top: -600px;
+        height: 60px;
+        width: 440px;
+        margin-left:-10px ;
+        top:50px ;
+         border-radius: 40px; 
+         background-color: rgb(235, 206, 154);;
+
+        
+       
+    }
+    .dropdown-btn {
+            background-color:rgb(235, 206, 154);
+            color: rgb(235, 206, 154);
+            padding: 10px 15px;
+            border: none;
+            cursor: pointer;
+            margin-top: -92px;
+            margin-left: 1200px;
+            position: absolute;
+            height: 5px;
+            
+            
+        }
+
+        /* Style for the dropdown container */
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+
+        /* Style for the dropdown content */
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color:white;
+            min-width: 160px;
+            z-index: 1;
+            margin-top: -30px;
+            margin-left: 1200px;
+        }
+
+        /* Style for the dropdown links */
+        .dropdown-content a {
+            color:blue;
+            padding: 12px 16px;
+            display: block;
+            text-decoration: none;
+            text-align: left;
+            font-size: 12px;
+        }
+
+        /* Change color on hover for the dropdown links */
+        .dropdown-content a:hover {
+            background-color:none;
+            color: black;
+        }
+
+        /* Show the dropdown content when clicking on the button */
+        .dropdown.active .dropdown-content {
+            display: block;
+        } 
+
+  
+
+
+
+  </style>
+</head>
+<body>
+    <div style="background-color: rgb(235, 206, 154); margin-top: -80px; height:50px;  justify-content: cnter; ">
+   
+
+        <nav>
+            <a href="file:///C:/Users/USER/Desktop/205%20project%20work/205.html#catalog">
+                <img src="images web/homelogo.jpeg" alt="Home" style="width: 40px; border-radius: 40px;">
+            </a>
+            <a href="file:///C:/Users/USER/Desktop/205%20project%20work/contact%20pagee.html">Contact</a>
+            <a href="file:///C:/Users/USER/Desktop/205%20project%20work/About%20page.html">About</a>
+            <a href="file:///C:/Users/USER/Desktop/CS%20project/academic%20page.html">Events</a>
+            <a href="file:///C:/Users/USER/Desktop/205%20project%20work/catalog%20page.html">Catalog</a>
+        </nav>
+    
+       
+       
+    
+    <div class="dropdown" id="dropdownButton">
+            <button class="dropdown-btn" onclick="toggleDropdown()"><img  style="width: 50px; height: 25; background-color: rgb(235, 206, 154); border-radius: 50px;"   src="images web/dropdown button.png"></button>
+            <div class="dropdown-content">
+                <a href="file:///C:/Users/USER/Desktop/205%20project%20work/Resouces%20page.html">Resources</a>
+                <a href="#academics">Academics</a>
+                <a href="#staff-profiles">Staff Profiles</a>
+                <a href="#admissions">Admissions</a>
+                <a href="#research">Research</a>
+    
+            </div>
+        </div>
+    
+       
+    
+        <script>
+            function toggleDropdown() {
+                var dropdown = document.getElementById("dropdownButton");
+                dropdown.classList.toggle("active");
+            }
+        </script>
+     <img class="complogo"   src="images web/CS LOGO.png"  >
+       
+          
+        </div>
+   
+
+
+
+
+
+    <header>
+        <h1 style="margin-top: 100px;">Computer Science Department Admission</h1>
+    </header>
+
+
+
+    <section>
+        <h2 style="color: #032b55;">Admission Requirements</h2>
+        <p>Welcome to the Computer Science Department at the University of Ghana. Below are the admission requirements for our programs:</p>
+
+        <h3 style="color: #032b55;">Bachelor's Degree in Computer Science</h3>
+<p>  The University of Ghana announces for the information of the general public that applications are open for the admission of prospective applicants into various undergraduate programmes for the 2023/2024 academic year. Applicants should take note of the following:
+
+ 
+
+    GHANA WASSCE/SSSCE - Minimum/General Entry
+    
+    Requirements General Entry Requirements into Legon Campus, Accra City Campus and Korle Bu Campus.
+    
+    An applicant for admission to a degree programme in the University of Ghana must have at least credits (A1 - C6 in WASSCE and A – D in SSSCE) in English, Core Mathematics and Integrated Science (for Science related programmes) or Social Studies (for non-Science related programmes) and three elective subjects in Science for applicants applying to Science or Agriculture related disciplines or three elective subjects in General Arts/Business for applicants applying to non-Science related disciplines, with the total aggregate not exceeding 24. In addition, Science applicants should have at least a grade C6 in WASSCE/D in SSSCE in Social Studies/Life Skills and non-Science applicants should also have at least a grade C6 in WASSCE/D IN SSSCE in Integrated Science/Core Science.</p>
+
+        <h3 style="color: #032b55;">Master's Degree in Computer Science</h3>
+        <ul>
+            <li>Completion of a relevant bachelor's degree with a minimum GPA</li>
+            <li>Submission of transcripts and letters of recommendation</li>
+            <li>Statement of purpose outlining research interests and goals</li>
+            <!-- Add any other specific requirements -->
+        </ul>
+
+        <h3 style="color: #032b55;">Ph.D. in Computer Science</h3>
+        <ul>
+            <li>Completion of a master's degree in a related field</li>
+            <li>Demonstrated research experience and publications</li>
+            <li>Submission of a research proposal</li>
+            <!-- Add any other specific requirements -->
+        </ul>
+    </section>
+
+    <section>
+        <h2 style="color: #032b55;" >Course Delivery</h2>
+        <p>Our courses are designed to provide a comprehensive understanding of computer science concepts and applications. The delivery methods include:</p>
+
+        <ol>
+            <li>Lectures by experienced faculty members</li>
+            <li>Hands-on laboratory sessions</li>
+            <li>Project work and assignments</li>
+            <li>Guest lectures from industry experts</li>
+            <!-- Add any other relevant information about course delivery -->
+        </ol>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Computer Science Department, University of Ghana</p>
+    </footer>
+
+</body>
+</html>
