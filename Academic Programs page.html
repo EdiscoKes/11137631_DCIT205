@@ -1,49 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Computer Department Staff - University of Ghana</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-    }
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Academic Programs - Computer Science Department</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
 
-    header {
-      background-color: #003366; /* University of Ghana's color */
-      color: #fff;
-      text-align: center;
-      padding: 1em;
-      background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlO2TIoLMs2muTezl5jY49un3F3GF8cnx0FQ&usqp=CAU');
-    height: 200px;
-    }
- h2{
-  background-color: #003366;
-  color: white;
- }
-   
-    section {
-      padding: 20px;
-    }
+        header {
+            background-color: rgb(3, 3, 70);
+            color: white;
+            padding: 20px;
+            text-align: center;
+          height: 200px;
+            background-image: url('https://spectrum.ieee.org/media-library/illustration-of-software-development-in-the-cloud.jpg?id=25591710&width=400&height=300');
+        }
 
-    .profile {
-      margin-bottom: 30px;
-    }
+        
 
-    footer {
-      background-color: #003366;
-      color: #fff;
-      text-align: center;
-      padding: 1em;
-      position: absolute;
-      width: 100%;
-    }
+        section {
+            padding: 20px;
+        }
+
+        footer {
+            background-color: rgb(1, 1, 94);
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        .program {
+            background-color: rgb(2, 2, 92);
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            color: #f4f4f4;
+        
+        }
 
 
-
-    nav {
+        nav {
             background-color:rgb(235, 206, 154);
             overflow: hidden;
             margin-left: 500px;
@@ -164,9 +169,6 @@
             display: block;
         } 
 
-        h2{
-          color: #003366;
-        }
   
 
 
@@ -194,9 +196,9 @@
             <button class="dropdown-btn" onclick="toggleDropdown()"><img  style="width: 50px; height: 25; background-color: rgb(235, 206, 154); border-radius: 50px;"   src="images web/dropdown button.png"></button>
             <div class="dropdown-content">
                 <a href="file:///C:/Users/USER/Desktop/205%20project%20work/Resouces%20page.html">Resources</a>
-                <a href="#academics">Academics</a>
-                <a href="file:///C:/Users/USER/Desktop/web%20dev/11137631_DCIT205/staff%20Profile%20page.html">Staff Profiles</a>
-                <a href="#admissions">Admissions</a>
+                <a href="file:///C:/Users/USER/Desktop/web%20dev/11137631_DCIT205/Academic%20Programs%20page.html">Academic Programmes</a>
+                <a href="#staff-profiles">Staff Profiles</a>
+                <a href="file:///C:/Users/USER/Desktop/web%20dev/11137631_DCIT205/Admsission%20page.html">Admissions</a>
                 <a href="#research">Research</a>
     
             </div>
@@ -214,69 +216,87 @@
        
           
         </div>
-    
-  <header>
-    <h1>Computer Science Department Staff Profiles</h1>
-    <p>University of Ghana</p>
-  </header>
-
- <div style="margin-left: 200px;"> 
-  <section id="faculty">
-    <h2 style="color: white;">Faculty Members</h2>
-    <div class="profile">
-      <h3>Dr.Ebenezer Owusu</h3>
-      <p>Head Of Department</p>
-<img src="images web/HOD.jpeg">
-      <p>Research Interests: Artificial Intelligence, Machine Learning, Data science</p>
-    </div>
-    <div class="profile">
-      <h3>Mr.Michael Tettey Agbo Soli</h3>
-      <p> Professor</p>
-      <img src="images web/Michael  Agbo Tettey Soli.jpeg">
-      <p>Research Interests: Software Engineering, Artificial Intellligence and more</p>
-    </div>
-    
-  </section>
-
-  <section id="researchers">
-    <h2 style="color: white;">Researchers</h2>
-    <div class="profile">
-      <h3>Mr.Julius Ludu</h3>
-      <p>Professor</p>
-      <img src="images web/Julius Ludu.jpeg">
-      <p>Researcher in Data Science, Artificial intelligence and Networking</p>
-    
-<h3>Mr. Edward Ansong</h3>
-      <p> Professor</p>
-      <img src="images web/Edward Danso Ansong.jpeg">
-
-      <p > Researcher in Data Science Big Data Analytics, Data Mining</p>
-    </div>
-    
-  </section>
-
-  <section id="staff">
-    <h2 style="color: white;">Administrative Staff</h2>
-    <div class="profile">
-      <h3>Mr. Mark Atta</h3>
-      <p>Professor</p>
-      <img src="images web/mark.jpeg">
-      <p>Department Administrator</p>
-    </div>
    
-  </section>
+    
 
-  <section id="contact">
-    <h2 style="color: white;">Contact Information</h2>
-    <p>For more information about our staff, please contact the Computer Department at:</p>
-    <p>Email: computer.department@university.edu</p>
-    <p>Phone: +123 456 7890</p>
-  </section>
- </div>
+    
 
-  <footer>
-    <p>&copy; 2023 University of Ghana - Computer Department</p>
-  </footer>
+
+    <header>
+        <h1>Computer Science Department Programs</h1>
+        <p>University of Ghana</p>
+    </header>
+
+   
+    <section id="programs">
+        <h2>Academic Programs</h2>
+
+        <div class="program">
+            <h3>Bachelor of Science in Computer Science</h3>
+            <p>This program provides a comprehensive foundation in computer science, covering areas such as programming, algorithms, data structures, and software engineering.</p>
+            <h4>Some courses offered in the  department</h4>
+            <p>	Application Development,
+                Data Structures & Algorithm I,
+                Systems Administration,
+                Software Engineerin and many more</p>
+        <h2> Some Computer Science Department's Courses and Codes</h2>
+
+                <table>
+                    <tr>
+                        <th>Course Code</th>
+                        <th>Course Title</th>
+                    </tr>
+                    <tr>
+                        <td>UGRC 220</td>
+                        <td>Introduction to African Studies</td>
+                    </tr>
+                    <tr>
+                        <td>DCIT 202</td>
+                        <td>Mobile Application Development</td>
+                    </tr>
+                    <tr>
+                        <td>DCIT 204</td>
+                        <td>Data Structures & Algorithm I</td>
+                    </tr>
+                    <tr>
+                        <td>DCIT 206</td>
+                        <td>Systems Administration</td>
+                    </tr>
+                    <tr>
+                        <td>DCIT 208</td>
+                        <td>Software Engineering</td>
+                    </tr>
+                </table>
+        
+            </p>
+            
+            <img src="images web/Mobile App Dev.jpg" width="200px">
+            <figcaption>Mobile Application</figcaption>
+
+        
+        
+        </div>
+
+
+
+        <div class="program">
+            <h3>Master of Science in Computer Science</h3>
+            <p>Our master's program offers advanced study in computer science, allowing students to specialize in areas like artificial intelligence, cybersecurity, or data science.</p>
+    
+     <img src="images web/Cyber Security.jpg"with="200px">
+     
+<img src="images web/data science.jpeg">
+     <img src="images web/network.png" alt="Networking" width="200px">
+     
+        </div>
+
+        
+
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Computer Science Department, University of Ghana</p>
+    </footer>
 
 </body>
 </html>
