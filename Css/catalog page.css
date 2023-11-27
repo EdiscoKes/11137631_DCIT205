@@ -1,0 +1,155 @@
+<style>
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #003366; /* University of Ghana's color */
+  color: #fff;
+  text-align: center;
+  padding: 1em;
+  background-image: url('https://balme.ug.edu.gh/images/ap-smart-layerslider/homepage/6.png');
+  height:200px;
+}
+
+
+section {
+  padding: 20px;
+}
+
+footer {
+  background-color: #003366;
+  color: #fff;
+  text-align: center;
+  padding: 1em;
+  position: absolute;
+  width: 2000px;
+  margin-left: -200px;
+
+  
+}
+
+
+/* the navigation bar style  */
+nav {
+        background-color:rgb(235, 206, 154);
+        overflow: hidden;
+        margin-left: 500px;
+        width: 30%; 
+        margin-bottom: 5px;
+
+        margin-top: 80px;
+
+    }
+
+    nav a {
+        float:right;
+        display: inline-block;
+        color: blue;
+        text-align: left;
+        padding: 14px 16px;
+        text-decoration: none;
+        width: 15%; 
+         box-sizing: border-box;
+         font-size: small;
+    }
+    nav a img {
+        max-width: 50%; 
+        height: auto;}
+
+    nav a:hover {
+        background-color: #f3d3d3;
+            color: black;}
+       
+
+    nav {
+        background-color:rgb(235, 206, 154);
+        overflow: hidden;
+        width: 50%;
+    }
+
+    nav a {
+        float: left;
+        display: block;
+        color: rgb(7, 7, 56);
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+    nav a:hover {
+        
+        color: black;
+        text-decoration: underline;
+    }.complogo{
+        margin-top: -600px;
+    height: 60px;
+    width: 440px;
+    margin-left:-10px ;
+    top:50px ;
+     border-radius: 40px; 
+     background-color: rgb(235, 206, 154);;
+
+    
+   
+}
+.dropdown-btn {
+        background-color:rgb(235, 206, 154);
+        color: rgb(235, 206, 154);
+        padding: 10px 15px;
+        border: none;
+        cursor: pointer;
+        margin-top: -80px;
+        margin-left: 1100px;
+        position: absolute;
+        height: 5px;
+        
+        
+    }
+
+    /* Style for the dropdown container */
+    .dropdown {
+        position: relative;
+        display: inline-block;
+    }
+
+    /* Style for the dropdown content */
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color:white;
+        min-width: 160px;
+        z-index: 1;
+        margin-top: -20px;
+        margin-left: 1100px;
+    }
+
+    /* Style for the dropdown links */
+    .dropdown-content a {
+        color:blue;
+        padding: 12px 16px;
+        display: block;
+        text-decoration: none;
+        text-align: left;
+        font-size: 12px;
+    }
+
+    /* Change color on hover for the dropdown links */
+    .dropdown-content a:hover {
+        background-color:none;
+        color: black;
+    }
+
+    /* Show the dropdown content when clicking on the button */
+    .dropdown.active .dropdown-content {
+        display: block;
+    } 
+
+    .h2 {
+        color: #003366;
+    }
+
+
+</style>
